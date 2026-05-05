@@ -1,4 +1,4 @@
-This method uses boosted trees to find a good gradient for classification. It is very fast and efficient.
+This method uses XGBoost Claassifier which uses boosted trees to find a good gradient for classification. It is very fast and efficient.
 And it can also emulate properties of shadow models by creating n-tree, each of them carrying their
 own decisions while hiding some part of data from each tree. Processing thousands of trees was a
 matter of seconds unlike Logistic regression.
